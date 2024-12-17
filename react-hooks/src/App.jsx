@@ -1,7 +1,10 @@
 import UseEffectHook from "./components/useeffect/UseEffectHook";
 import A from "./components/usecontexthook/A";
 import Counter from "./components/usestatehook/Counter";
-import FetchPosts from "./components/useeffect/FetchPosts";
+
+import RegisterForm from "./components/forms/RegisterForm";
+import Checkbox from "./components/checkbox/Checkbox";
+import Cart from "./components/shoppingcart/Cart";
 
 function App() {
   return (
@@ -9,7 +12,10 @@ function App() {
       <UseEffectHook />
       <A />
       <Counter />
-      <FetchPosts />
+    {/*<FetchPosts />*/ }  
+    <RegisterForm />
+    <Checkbox />
+    <Cart />
     </>
   );
 }
