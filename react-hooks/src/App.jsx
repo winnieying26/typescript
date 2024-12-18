@@ -8,6 +8,7 @@ import Cart from "./components/shoppingcart/Cart";
 import Board from "./components/tictactoe/Board";
 import FetchPhotos from "./components/useeffect/FetchPhotos";
 import FetchUsers from "./components/useeffect/FetchUsers";
+import FetchPhotoById from "./components/useeffect/FetchPhotoById";
 
 
 function App() {
@@ -18,13 +19,14 @@ function App() {
       <Counter />
     {/*<FetchPosts />   <A />import A from "./components/usecontexthook/A";
     import FetchComments from "./components/useeffect/FetchComments";
-    <FetchComments /> <FetchPhotos />
+    <FetchComments /> <FetchPhotos /><FetchUsers />
     */ }  
     <RegisterForm />
     <Checkbox />
     <Cart />
     <Board />
-    <FetchUsers />
+    <FetchPhotoById />
+    
     
   
     </>
