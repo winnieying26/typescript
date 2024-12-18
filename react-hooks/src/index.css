@@ -23,3 +23,20 @@
   flex-direction: column;
   
 }
+
+.board{
+  display: grid;
+  background-color: rgb(153, 171, 189);
+  border:1px solid black ;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr ;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
